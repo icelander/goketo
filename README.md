@@ -1,15 +1,15 @@
 GoKeto: Marketo REST API Client
 ===============================
-[![GoDoc](https://godoc.org/github.com/FrenchBen/goketo?status.svg)](https://godoc.org/github.com/FrenchBen/goketo)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/FrenchBen/goketo/master/LICENSE)
-[![CircleCI](https://circleci.com/gh/FrenchBen/goketo.svg?style=shield)](https://circleci.com/gh/FrenchBen/goketo)
-[![TravisCI](https://travis-ci.org/FrenchBen/goketo.svg?branch=master)](https://travis-ci.org/FrenchBen/goketo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/FrenchBen/goketo)](https://goreportcard.com/report/github.com/FrenchBen/goketo)
-[![Badge Badge](http://doyouevenbadge.com/github.com/FrenchBen/goketo)](http://doyouevenbadge.com)
+[![GoDoc](https://godoc.org/github.com/icelander/goketo?status.svg)](https://godoc.org/github.com/icelander/goketo)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/icelander/goketo/master/LICENSE)
+[![CircleCI](https://circleci.com/gh/icelander/goketo.svg?style=shield)](https://circleci.com/gh/icelander/goketo)
+[![TravisCI](https://travis-ci.org/icelander/goketo.svg?branch=master)](https://travis-ci.org/icelander/goketo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/icelander/goketo)](https://goreportcard.com/report/github.com/icelander/goketo)
+[![Badge Badge](http://doyouevenbadge.com/github.com/icelander/goketo)](http://doyouevenbadge.com)
 
 <p align="center">
   <a href="http://golang.org" target="_blank"><img alt="Go package" src="https://golang.org/doc/gopher/pencil/gopherhat.jpg" width="20%" /></a>
-  <a href="https://www.marketo.com/" target="_blank"><img src="https://raw.githubusercontent.com/FrenchBen/go-marketo/master/doc/Marketo-logo.jpg" alt="Marketo Logo"/></a>
+  <a href="https://www.marketo.com/" target="_blank"><img src="https://raw.githubusercontent.com/icelander/go-marketo/master/doc/Marketo-logo.jpg" alt="Marketo Logo"/></a>
 </p>
 
 
@@ -24,7 +24,7 @@ Installation
 ----------------
 The recommended way of installing the client is via `go get`. Simply run the following command to add the package.
 
-    go get github.com/FrenchBen/goketo/
+    go get github.com/icelander/goketo/
 
 Usage
 ----------------
@@ -39,7 +39,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/FrenchBen/goketo"
+	"github.com/icelander/goketo"
 	"github.com/Sirupsen/logrus"
 )
 
@@ -88,7 +88,7 @@ func main() {
 To view more the token and fields sent with the request, set your log level to debug:
 `logrus.SetLevel(logrus.DebugLevel)`
 
-For information on usage, please see the [GoDoc](https://godoc.org/github.com/FrenchBen/goketo).
+For information on usage, please see the [GoDoc](https://godoc.org/github.com/icelander/goketo).
 
 License
 ----------------
